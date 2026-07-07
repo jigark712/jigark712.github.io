@@ -4,7 +4,7 @@ import { createContext, useCallback, useContext, useEffect } from "react";
 
 export type Theme = "light" | "dark";
 
-const STORAGE_KEY = "marvel-portfolio-theme:v1";
+const STORAGE_KEY = "jigar-portfolio-theme:v1";
 
 type ThemeContextValue = {
   toggleTheme: () => void;
